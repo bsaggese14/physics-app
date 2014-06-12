@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<style>
+
+button
+{
+width:90%;
+margin-left:5%;
+height:2em;
+}
+#header
+{
+background:linear-gradient(#282D34,#3D4248);
+font-size:3em;
+width:100%;
+color:white;
+margin-top:0%;
+margin-left:0px;
+padding-left:5%;
+margin-bottom:0px;
+}
+#footer
+{
+background:linear-gradient(#282D34,#3D4248);
+font-size:3em;
+width:100%;
+color:white;
+margin-top:0%;
+padding-left:5%;
+}
+</style>
+<script>
+function enterKinematics() {
+	location.assign("kinematics.html");
+}
+
+function enterGravitation() {
+	location.assign("gravitation.html");
+}
+function enterBonus() {
+	location.assign("bonus.html");
+}
+</script>
+</head>
+
+<body>
+<p id="header">Physics Helper</p>
+<img src="physics.png" id="physicspic" style="width:100%;">
+<div id ="buttons" style="width:100%;height:20%;">
+<button onclick="enterKinematics()" id="kinematics">Kinematics</button>
+<br>
+<button onclick="enterForces()" id="forces">Forces (Under Construction)</button>
+<br>
+<button onclick="enterWork()" id="work">Work, Power, Energy (Under Construction)</button>
+<br>
+<button onclick="enterOscillations()" id="oscillations">Oscillations (Under Construction)</button>
+<br>
+<button onclick="enterGravitation()" id="gravitation">Gravitation</button>
+<br>
+<button onclick="enterRotation()" id="rotation">Rotational Motion (Under Construction)</button>
+</div> 
+<button onclick="enterBonus()" id="Bonus Question">Bonus Question</button>
+<p id="footer">Physics Helper</p>
+</body>
+</html>
